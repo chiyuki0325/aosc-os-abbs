@@ -1,0 +1,5 @@
+PKGNAME=qrtr
+PKGSEC=admin
+PKGDES="Userspace reference for Qualcomm's IPC Router protocol"
+
+MESON_AFTER="-Dqrtr-ns=enabled -Dsystemd-service=enabled"
